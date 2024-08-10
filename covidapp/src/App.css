@@ -1,0 +1,102 @@
+/* body{
+  background-color: black;
+  color:pink;
+  text-align: center;
+} */
+
+
+/* body {
+  background-color: pink;
+} */
+
+.covid {
+  /* background-color: green; */
+  width: 50%;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: blue;
+}
+
+/* input stylings */
+
+.covid__form {
+  padding: 10px;
+  margin: 15px;
+
+}
+
+.covid__input input {
+  width: 500px;
+  height: 50px;
+  background-color: rgb(235, 210, 210);
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  /* border-radius: 20px; */
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.covid__input button {
+  width: 100px;
+  height: 70px;
+  /* margin-top: 20px; */
+  margin-left: 10px;
+  background-color: rgb(148, 137, 137);
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 5px 5px 5px rgb(71, 67, 67);
+  cursor: pointer;
+}
+
+.covid__input button:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+/* detail stylings */
+
+.covid__country__info {
+  font-size: 20px;
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 700px;
+  height: auto;
+  padding-left: 20px;
+  /* background-color: white; */
+  margin-top: 20px;
+  padding: 2px;
+  /* visibility: hidden; */
+  /* text-shadow: 1px 1px 1px rgb(71, 67, 67);
+  box-shadow: 5px 5px 5px rgb(71, 67, 67); */
+}
+
+p {
+  /* margin-left: 50px; */
+  display: flex;
+  justify-content: center;
+}
+
+
+.dark-mode {
+  background-color: black;
+  color: white;
+  height: 100%;
+  /* transition: background-color 025s ease-in-out; */
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+  height: 100%;
+  /* transition: background-color 025s ease-in-out; */
+}
